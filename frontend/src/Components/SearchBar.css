@@ -1,0 +1,40 @@
+.search-bar {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.search-bar::placeholder {
+    color: #34000b;
+}
+
+.search-bar .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+    border: none;
+}
+
+.search-bar .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border: none; /* Remove the border on hover */
+}
+
+.search-bar .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: none; /* Remove the border when focused */
+}
+
+.search-bar .MuiInputBase-input {
+    color: #34000b;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.search-bar .MuiInputBase-input::placeholder {
+    color: #34000b;
+    font-style: italic;
+}
+
+.icon-button {
+    transform: scale(1.2);
+    padding: 0;
+}
+
+.search-icon {
+    color: #34000b;
+}

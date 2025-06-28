@@ -1,0 +1,28 @@
+services:
+  aresfrontend:
+    build:
+      context: ./frontend
+    container_name: aresfrontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - aresarmory
+
+  aresarmory:
+    build:
+      context: ./backend
+    container_name: aresarmory
+    ports:
+      - "8080:8080"
+    depends_on:
+      - aresarmorypostgres
+
+  aresarmorypostgres:
+    image: postgres:16
+    container_name: aresarmorypostgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: aresarmorypostgres
+      POSTGRES_PASSWORD: aresarmorypostgres
+      POSTGRES_DB: aresarmorypostgres

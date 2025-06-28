@@ -1,0 +1,109 @@
+.product-page-header {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-color: #34000b;
+}
+
+.product-page-header-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.product-page-header-links a {
+    color: #be9359;
+}
+
+.product-page-divider {
+    background-color: grey;
+}
+
+.links-home-icon {
+    position: relative;
+}
+
+.product-page-header-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.product-header-name {
+    color: white;
+    font-size: 2.5em;
+    margin-left: 30px;
+}
+
+.product-header-price {
+    color: #be9359;
+    font-size: 2.5em;
+    margin-right: 30px;
+}
+
+.product-page-container {
+    display: flex;
+    background-color: #f5f5dc;
+    height: 600px;
+}
+
+.product-container-image-div {
+    flex: 1;
+    margin-top: 40px;
+}
+
+.product-details {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #34000b;
+    margin-top: 30px;
+}
+
+.product-page-image {
+    height: 500px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.quantity-div {
+    display: flex;
+    align-items: center;
+}
+
+.add-to-cart-button.MuiButtonBase-root {
+    text-align: center;
+    background-color: #a30015;
+}
+
+.add-to-cart-button.MuiButtonBase-root:hover {
+    background-color: #e10019;
+}
+
+.specifications {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.description-container {
+    fleX: 1;
+    color: #34000b;
+    margin-right: 2rem;
+    overflow-y: auto;
+    max-height: 500px;
+}

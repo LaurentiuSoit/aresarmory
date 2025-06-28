@@ -1,0 +1,82 @@
+.order-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.order-entries-div {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-page-options {
+    flex: 1 1;
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #a98351;
+}
+
+.order-page-entry-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 110px;
+    width: 80%;
+    word-wrap: break-word;
+    color: white;
+    margin: 10px;
+    background-color: #34000b;
+    border-radius: 20px;
+    min-width: 240px;
+}
+
+.order-page-entry-image-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+}
+
+.order-page-entry-image-div a {
+    height: 85%;
+}
+
+.order-page-entry-image {
+    height: 100%;
+    width: 100%;
+}
+
+.order-page-entry-div-text {
+    margin-left: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 35%;
+}
+
+.order-page-entry-link {
+    color: #e1b65b;
+    text-decoration: none;
+}
+
+.place-order-button.MuiButtonBase-root {
+    text-align: center;
+    background-color: #a30015;
+}
+
+.place-order-button.MuiButtonBase-root:hover {
+    background-color: #e10019;
+}
