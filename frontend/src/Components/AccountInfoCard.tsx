@@ -178,6 +178,7 @@ const AccountInfoCard: React.FC<{
         setNewAddress(prevState => ({
             ...prevState,
             [name]: value,
+            userId: Number(localStorage.getItem("user-id"))
         }));
     };
 

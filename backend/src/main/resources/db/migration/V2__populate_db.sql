@@ -153,7 +153,7 @@ INSERT INTO product (id, product_name, product_description, price, available_qua
     (15, 'Medieval Steel Breastplate', 'Wearable replica of a medieval steel plate armour. Includes two straps crossing in the back, adjustable in size by means of buckles. The harness features decorative brass rivets along the edges. Well-dimensioned armholes provide sufficient space for the arms to move freely.',
      90, 100, CURRENT_DATE, 7);
 INSERT INTO product (id, product_name, product_description, price, available_quantity, added_date, category_id) VALUES
-    (16, 'Prussian Pickelhaube Infantory 1889 leather and brass', 'Replica of an original 1889 Prussian infantry helmet, also known as Pickelhaube. The ornamental front plate shows the heraldic Prussian eagle with the scroll inscription Mit Gott für König und Vaterland (With God for King and Fatherland) and the letters FR on its chest. The front plate, spike and trimmings are made of brass. Our helmet is crafted from leather and equipped with a comfortable, adjustable leather liner. The chin strap is also made from leather.',
+    (16, 'Prussian Pickelhaube Infantry 1889 leather and brass', 'Replica of an original 1889 Prussian infantry helmet, also known as Pickelhaube. The ornamental front plate shows the heraldic Prussian eagle with the scroll inscription Mit Gott für König und Vaterland (With God for King and Fatherland) and the letters FR on its chest. The front plate, spike and trimmings are made of brass. Our helmet is crafted from leather and equipped with a comfortable, adjustable leather liner. The chin strap is also made from leather.',
      134, 100, CURRENT_DATE, 7);
 
 

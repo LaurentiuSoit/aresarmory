@@ -107,27 +107,6 @@ CREATE TABLE valid_attribute
     CONSTRAINT pk_valid_attribute PRIMARY KEY (id)
 );
 
-ALTER TABLE cart
-    ADD CONSTRAINT uc_cart_shop_user UNIQUE (shop_user_id);
-
-ALTER TABLE shop_order
-    ADD CONSTRAINT uc_shop_order_cart UNIQUE (cart_id);
-
-ALTER TABLE shop_order
-    ADD CONSTRAINT uc_shop_order_delivery_address UNIQUE (delivery_address);
-
-ALTER TABLE shop_order_entry
-    ADD CONSTRAINT uc_shop_order_entry_product UNIQUE (product_id);
-
-ALTER TABLE shop_order
-    ADD CONSTRAINT uc_shop_order_invoice_address UNIQUE (invoice_address);
-
-ALTER TABLE shop_user
-    ADD CONSTRAINT uc_shop_user_default_billing_address UNIQUE (default_billing_address);
-
-ALTER TABLE shop_user
-    ADD CONSTRAINT uc_shop_user_default_delivery_address UNIQUE (default_delivery_address);
-
 ALTER TABLE address
     ADD CONSTRAINT FK_ADDRESS_ON_SHOP_USER FOREIGN KEY (shop_user_id) REFERENCES shop_user (id);
 

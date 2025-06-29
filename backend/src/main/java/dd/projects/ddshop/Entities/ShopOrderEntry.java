@@ -18,7 +18,7 @@ public class ShopOrderEntry implements Serializable {
     @Column(name = "id")
     private Integer id;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn(name = "product_id")
     private Product product;
 
